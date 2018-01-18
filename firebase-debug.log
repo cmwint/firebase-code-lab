@@ -1,0 +1,41 @@
+[debug] [2018-01-04T17:30:53.690Z] ----------------------------------------------------------------------
+[debug] [2018-01-04T17:30:53.694Z] Command:       /Users/apple/.nvm/versions/node/v6.11.2/bin/node /Users/apple/.nvm/versions/node/v6.11.2/bin/firebase serve
+[debug] [2018-01-04T17:30:53.695Z] CLI Version:   3.16.0
+[debug] [2018-01-04T17:30:53.695Z] Platform:      darwin
+[debug] [2018-01-04T17:30:53.695Z] Node Version:  v6.11.2
+[debug] [2018-01-04T17:30:53.696Z] Time:          Thu Jan 04 2018 10:30:53 GMT-0700 (MST)
+[debug] [2018-01-04T17:30:53.696Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-04T17:30:53.715Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-04T17:30:53.715Z] > authorizing via signed-in user
+[debug] [2018-01-04T17:30:53.718Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-01-04T17:30:53.718Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/uI21DjrDIMKrvMHNKXHoD-XOcJ11Pmlazs10nS6mB7g',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Jan 04 2018 10:30:53 GMT-0700 (MST)
+[debug] [2018-01-04T17:30:54.043Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-04T17:30:54.066Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/friendlychat-f9eb5  
+  
+ Thu Jan 04 2018 10:30:54 GMT-0700 (MST)
+[debug] [2018-01-04T17:30:54.329Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-04T17:30:54.330Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/friendlychat-f9eb5/tokens  
+  
+ Thu Jan 04 2018 10:30:54 GMT-0700 (MST)
+[debug] [2018-01-04T17:30:54.739Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/apple/Desktop/projects/firebase-code-lab'...
+[info] 
+[debug] [2018-01-04T17:30:54.745Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-f9eb5  
+  
+ Thu Jan 04 2018 10:30:54 GMT-0700 (MST)
+[debug] [2018-01-04T17:30:55.027Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-04T17:30:55.028Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/490298506537/clients/_:getWebAppConfig  
+  
+ Thu Jan 04 2018 10:30:55 GMT-0700 (MST)
+[debug] [2018-01-04T17:30:55.555Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] ✔  hosting: Local server: http://localhost:5000
+
